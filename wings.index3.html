@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Static Site Template</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      background: #fff;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    /* NEW HERO IMAGE */
+    /* .hero-image {
+      width: 100%;
+      height: 320px;
+      overflow: hidden;
+      margin-bottom: 30px;
+      border-radius: 6px;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    } */
+
+    .hero-image {
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  text-align: center;
+  background: #000; /* optional: adds letterbox effect */
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;   /* keeps full proportions */
+  object-fit: contain;
+  display: block;
+}
+
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: -10px;
+      margin-bottom: 25px;
+      color: #555;
+    }
+
+    .description {
+      margin-bottom: 40px;
+    }
+
+    .description p {
+      margin-bottom: 20px;
+      font-size: 1.05rem;
+    }
+
+    .links-directory {
+      border-top: 1px solid #ccc;
+      padding-top: 25px;
+    }
+
+    .links-directory h2 {
+      margin-top: 0;
+      font-size: 1.4rem;
+    }
+
+    .links-directory ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .links-directory li {
+      margin-bottom: 12px;
+    }
+
+    .links-directory a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .links-directory a:hover {
+      text-decoration: underline;
+    }
+
+    .link-note {
+      display: block;
+      color: #555;
+      font-size: 0.95rem;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HERO IMAGE -->
+    <div class="hero-image">
+      <img src="C:\Users\bigtr\OneDrive\Desktop\projects\code\web\wings\D585A28A-97E0-461E-AC69-2E2C1E08DCB6.PNG" alt="W.I.N.G.S. Community Banner">
+    </div>
+
+    <h1>W.I.N.G.S.</h1>
+    <h2>Wellness Information Navigating Great Services</h2>
+
+    <section class="description">
+      <p>
+        -a friend in need is a friend indeed..
+      </p>
+
+      <p>
+        This community resource directory is designed to connect individuals and families across Ontario with trusted support services, essential government programs, and local organizations that are here to help. Whether you’re looking for housing assistance, food support, mental health services, employment resources, or community programs, this directory brings together reliable information in one accessible place. Our goal is to make it easier to find the help you need—quickly, clearly, and without barriers.
+
+        Built with care for the diverse communities of Toronto and beyond, this platform highlights both government services and grassroots initiatives that support people during challenging times. We recognize that navigating support systems can feel overwhelming, so this directory is organized to guide you toward meaningful assistance and opportunities for stability, growth, and connection. No matter your situation, you are not alone—help is available, and this resource is here to point you in the right direction.
+      </p>
+
+      <p>
+        Brought to you with thanks from Ontario Shores, Nicole and all who wear the wings.
+      </p>
+    </section>
+
+    <section class="links-directory">
+      <h2>Useful Links</h2>
+      <ul>
+        <H3>Housing</H3>
+        <li>
+          <a href="https://habitat.ca/en" target="_blank">habitat for humanity</a>
+          <span class="link-note">housing</span>
+        </li>
+        <li>
+          <a href="https://www.probonoontario.org/housing/" target="_blank">Housing - Pro Bono Ontario</a>
+          <span class="link-note">Search and web resources.</span>
+        </li>
+        <li>
+          <a href="https://www.cdcd.org/" target="_blank">Home | Community Development Council Durham | CDCD Ajax | Support</a>
+          <span class="link-note">Code repositories and development projects.</span>
+        </li>
+        <li>
+          <a href="https://www.durham.ca/en/living-here/durham-access-to-social-housing-dash.aspx" target="_blank">Durham Access to Social Housing (DASH) - Region of Durham</a>
+          <span class="link-note">Reference and background information.</span>
+        </li>
+      </ul><ul>
+        <li>
+          <a href="https://www.durham.ca/en/doing-business/resources/Documents/HousingDevelopment/DASH-Vacancies-Site-Frequently-Asked-Questions.pdf" target="_blank">DASH frequently asked questions</a>
+          <span class="link-note">FAQ</span>
+        </li>
+        <H3>Food</H3>
+        <li>
+          <a href="https://www.google.com/search?q=food+hero&rlz=1C1CHBF_enCA1044CA1044&oq=food+hero&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTITCAEQLhiDARjHARixAxjRAxiABDINCAIQABiDARixAxiABDINCAMQLhjHARjRAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDIQCAYQABiDARixAxiABBiKBTIKCAcQABixAxiABDINCAgQABiDARixAxiABNIBCDY1NjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">food hero</a>
+          <span class="link-note"></span>
+        </li>
+        <H3>Finance</H3>
+        <li>
+          <a href="https://cnib.tfaforms.net/5047320" target="_blank">Disability Benefits Assistance Referral Form</a>
+          <span class="link-note">ODSP</span>
+        </li>
+        <li>
+          <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program/need-a-hand-complete-your-tax-return.html" target="_blank">Get your taxes done at a free tax clinic - Canada.ca</a>
+          <span class="link-note">CRA</span>
+        </li>
+      </ul><ul>
+        <li>
+          <a href="https://www.hrblock.ca/online-tax-software" target="_blank">File Taxes Online: Max Refund Guarantee | H&R Block Canada</a>
+          <span class="link-note">Taxes</span>
+        </li>
+        <li>
+          <a href="https://www.td.com/ca/en/personal-banking/products/bank-accounts/chequing-accounts/minimum-chequing-account" target="_blank">Open the low fee TD Chequing Account online | TD Canada Trust</a>
+          <span class="link-note">Banking</span>
+        </li>
+        <li>
+          <a href="https://www.simplii.com/en/home.html" target="_blank">Simplii Financial | Online Banking, Loans & Personal Finance</a>
+          <span class="link-note">Banking</span>
+        </li>
+        <li>
+          <a href="https://borrowell.com/" target="_blank">Credit Report & Credit Score Canada | Borrowell™</a>
+          <span class="link-note">Credit Report</span>
+        </li>
+      </ul><ul>
+        <li>
+          <a href="https://www.equifax.ca/personal/dispute-credit-report/options/" target="_blank">Start Your Dispute</a>
+          <span class="link-note">Credit Report</span>
+        </li>
+        <li>
+          <a href="https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/registered-disability-savings-plan-rdsp/eligibility-contributions.html" target="_blank">Eligibility and contributions - Canada.ca</a>
+          <span class="link-note">Tax</span>
+        </li>
+        <li>
+          <a href="https://ontarioelectricitysupport.ca/" target="_blank">Ontario Energy Board | Ontario Electricity Support Program</a>
+          <span class="link-note">Electric Bills</span>
+        </li>
+        <li>
+          <a href="https://www.oeb.ca/consumer-information-and-protection/bill-assistance-programs" target="_blank">Bill assistance programs | Ontario Energy Board</a>
+          <span class="link-note">Bill Assistance</span>
+        </li>
+      </ul><ul>
+        <li>
+          <a href="https://saveonenergy.ca/en/For-Your-Home/Energy-Affordability-Program" target="_blank">Energy Affordability Program | Save on Energy</a>
+          <span class="link-note">Energy Affordability</span>
+        </li>
+        <li>
+          <a href="https://saveonenergy.ca/en/For-Your-Home/Peak-Perks" target="_blank">Peak Perks | Save on Energy</a>
+          <span class="link-note">Home Peak Perks</span>
+        </li>
+        <H3>Other</H3>
+        <li>
+          <a href="https://communitycaredurham.on.ca/" target="_blank">Welcome to Community Care Durham supporting people, strengthening community</a>
+          <span class="link-note"></span>
+        </li>
+        <li>
+          <a href="https://www.communitycaredurham.on.ca/services/community-food-box/" target="_blank">Community Food Box | Community Care Durham</a>
+          <span class="link-note">Food</span>
+        </li>
+        <a href="https://forms.mgcs.gov.on.ca/en/dataset/586419e0-130f-4a53-bb07-c9a1455ca630/resource/e94fc7aa-8812-4510-82e1-afb8aa7864ba/download/on00646e.pdf" target="_blank">Mandatory Special Necessities  Benefit Application</a>
+          <span class="link-note"></span>
+        </li>
+        <a href="https://ontariohealthathome.ca/" target="_blank">Ontario Health atHome</a>
+          <span class="link-note"></span>
+        </li>
+        <a href="https://www.durhamchc.ca/hart-hub/" target="_blank">HART Hub in Partnership with DCHC - Durham Community Health Centre</a>
+          <span class="link-note"></span>
+        </li>
+        
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
